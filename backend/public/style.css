@@ -1,0 +1,171 @@
+body {
+	background: #e8e8e8;
+    height: 1000px;
+}
+.form-area {
+	padding-top: 7%;
+    margin-bottom: 200px;
+    height: 100vh;
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left {
+	background: rgb(14, 0, 106);
+	padding: 200px 98px;
+    height: 100%;
+}
+.left h2 {
+	font-family: poppins;
+	color: #fff;
+	font-weight: 800;
+	font-size: 60px;
+}
+.left h2 span {
+	font-weight: 700;
+}
+.single-form{
+    background: #fff;
+}
+.right {
+	padding: 70px 100px;
+	position: relative;
+}
+.right i {
+	position: absolute;
+	font-size: 80px;
+	left: -27px;
+	top: 40%;
+	color: #fff;
+}
+.form-control {
+	border: 2px solid #000;
+}
+.right button {
+	border: none;
+	border-radius: 0;
+	background: rgb(14, 0, 106);
+    font-size: 25px;
+	width: 180px;
+	color: #fff;
+	padding: 15px 0;
+	display: inline-block;
+	margin-top: 20px;
+	cursor: pointer;
+    transition: 0.3s all ease-in;
+}
+
+.right button:hover{
+    background-color: #252f38;
+}
+
+
+/*responsive*/
+@media (min-width:768px) and (max-width:991px){
+.right i {
+	top: -52px;
+	transform: rotate(90deg);
+	left: 50%;
+}
+}
+
+@media (max-width:767px){
+.left {
+  padding: 90px 15px;
+  text-align: center;
+}
+.left h2 {
+  font-size: 25px;
+}
+.right {
+  padding: 25px;
+}
+.right i {
+  top: -52px;
+  transform: rotate(90deg);
+  left: 46%;
+}
+.right button {
+	width: 150px;
+	padding: 12px 0;
+}
+    
+}
+
+
+
+
+
+
+
+/*///////////////////////////user page style////////////////////////////////*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.user-body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/ju.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login {
+    width: 380px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.login h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+div.btn-div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+div.btn-div button{
+	padding: 5px 20px;
+	font-size: 24px;
+	font-weight: 400;
+	background-color: rgb(13, 99, 13);
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: 0.5s all ease-in;
+}
+
+div.btn-div button:hover{
+	background-color: #e8e8e8;
+	color: rgb(13, 99, 13);
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
